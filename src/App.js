@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import Navbar from './Components/Navbar';
+import Info from './Components/Info';
+import Footer from './Components/Footer';
+
+ 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+        <h1>Welcome to Axiom Techguru</h1>
+        <Navbar></Navbar>
+        <Info></Info>
+        <Footer></Footer>
+      
+      
+      
+        
     </div>
   );
 }
